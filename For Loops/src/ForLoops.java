@@ -89,9 +89,14 @@ public class ForLoops
 				}
 			
 			for (int i = 0; i <= 9; i++)
-				{
+				{ 
+					System.out.println(" ");
 					System.out.println("*       *");
 				}
 			
+			for (int i = 0; i <= 9; i++)
+				{
+					System.out.print("*");
+				}
 		}
 	}
