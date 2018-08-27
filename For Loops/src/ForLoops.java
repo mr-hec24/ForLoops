@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ForLoops
 	{
@@ -8,7 +9,7 @@ public class ForLoops
 //				challengeTwo();
 //				challengeThree();
 //				challengeFour();
-				challengeFive();
+//				challengeFive();
 				challengeSix();
 				challengeSeven();
 				challengeEight();
@@ -60,7 +61,16 @@ public class ForLoops
 		
 		public static void challengeSix()
 		{
+			Scanner userInput = new Scanner(System.in);
+			System.out.println("Please input a number.");
+			int lowerNumber = userInput.nextInt();
+			System.out.println("Please input a number bigger than the previuos number.");
+			int higherNumber = userInput.nextInt();
 			
+			for (int i = lowerNumber; i <= higherNumber; i++)
+				{
+					System.out.println(i);
+				}
 		}
 		
 		public static void challengeSeven()
