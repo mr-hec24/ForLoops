@@ -4,10 +4,10 @@ public class ForLoops
 
 		public static void main(String[] args)
 			{
-				challengeOne();
-				challengeTwo();
-				challengeThree();
-				challengeFour();
+//				challengeOne();
+//				challengeTwo();
+//				challengeThree();
+//				challengeFour();
 				challengeFive();
 				challengeSix();
 				challengeSeven();
@@ -46,5 +46,30 @@ public class ForLoops
 					System.out.println(i);
 				}
 			System.out.println("BLAST OFF!");
+		}
+		
+		public static void challengeFive()
+		{
+			int totalSum = 0;
+			for (int i = 5; i <= 100; i = i + 5)
+				{
+					totalSum = totalSum + i;
+				}
+			System.out.println(totalSum);
+		}
+		
+		public static void challengeSix()
+		{
+			
+		}
+		
+		public static void challengeSeven()
+		{
+			
+		}
+		
+		public static void challengeEight()
+		{
+			
 		}
 	}
