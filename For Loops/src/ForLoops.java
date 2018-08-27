@@ -83,6 +83,15 @@ public class ForLoops
 		
 		public static void challengeEight()
 		{
-			for (int i = 0; i <)
+			for (int i = 0; i <= 9; i++)
+				{
+					System.out.print("*");
+				}
+			
+			for (int i = 0; i <= 9; i++)
+				{
+					System.out.println("*       *");
+				}
+			
 		}
 	}
