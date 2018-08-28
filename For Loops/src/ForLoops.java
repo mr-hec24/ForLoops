@@ -5,12 +5,12 @@ public class ForLoops
 
 		public static void main(String[] args)
 			{
-//				challengeOne();
-//				challengeTwo();
-//				challengeThree();
-//				challengeFour();
-//				challengeFive();
-//				challengeSix();
+				challengeOne();
+				challengeTwo();
+				challengeThree();
+				challengeFour();
+				challengeFive();
+				challengeSix();
 				challengeSeven();
 				challengeEight();
 			}
@@ -78,7 +78,26 @@ public class ForLoops
 		
 		public static void challengeSeven()
 		{
+			Scanner userInput = new Scanner(System.in);
+			System.out.println("Please input a low number.");
+			int lowerNumber = userInput.nextInt();
+			System.out.println("Please input a number bigger than the previuos number.");
+			int higherNumber = userInput.nextInt();
 			
+			int sum = 0;
+			for (int i = lowerNumber; i <= higherNumber; i++)
+				{
+					if (i%3 == 0)
+						{
+							sum += i;
+						}
+					else
+						{
+							
+						}
+				}
+			
+			System.out.println(sum);
 		}
 		
 		public static void challengeEight()
